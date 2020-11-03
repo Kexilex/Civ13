@@ -7,6 +7,7 @@
 	caribbean_blocking_area_types = list(/area/caribbean/no_mans_land/invisible_wall/)
 	respawn_delay = 6000 // 10 minutes!
 	has_hunger = TRUE
+
 	faction_organization = list(
 		CIVILIAN,)
 
@@ -27,8 +28,6 @@
 	research_active = TRUE
 	nomads = TRUE
 	gamemode = "Classic (Stone Age Start)"
-	var/list/arealist_r = list()
-	var/list/arealist_g = list()
 /obj/map_metadata/nomads_deficit/New()
 	..()
 	spawn(18000)
